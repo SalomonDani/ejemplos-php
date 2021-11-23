@@ -37,4 +37,8 @@
         }
     }
 
+    $nombre_fichero = str_replace(' ','_',$nombre_fichero);
     move_uploaded_file($ruta_fichero,$ruta_anyo_actual.$nombre_fichero);
+
+    //<a href="./descargarDocumentos.php?file=".$ruta_anyo_actual.$nombre_fichero"&type=".mime_content_type($ruta_anyo_actual.$nombre_fichero)></a>;
+

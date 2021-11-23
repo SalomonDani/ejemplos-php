@@ -111,7 +111,52 @@ function formularioCargaArchivos($paginaAction){
                 <input type='file' name='upload' id='upload'>
 
                 <button type='submit'>Enviar</button>
-            </form>";
+            </form>";   
+}
 
+function mostrarFicheros($arrayFicheros,$ruta){
+
+    echo "<table border=1px solid>
+            <tr>
+                <th>NombreFichero</th>
+                <th>EnlaceDescarga</th>
+            </tr>";
     
+            foreach($arrayFicheros as $fichero){
+                if(!($fichero == '.' || $fichero == '..')){
+                echo "<tr>
+                        <td>$fichero</td>
+                        <td>
+                            <a href=descargarDocumentos.php?file=".$ruta."/".$fichero.">Descargar</a>"
+                        ."</td>
+                    </tr>";
+                }
+            }
+    echo "</table>";
+
+}
+
+function saberIdEquipo($nombre_equipo){
+    $con = conexionBD();
+    $sentencia = mysqli_prepare($con,"SELECT codigo_eq FROM equipo WHERE nombre_eq=?");
+
+    mysqli_stmt_bind_param($sentencia,"s",$nombre_equipo);    
+
+    mysqli_stmt_bind_result($sentencia, $idEquipo);
+
+    mysqli_stmt_execute($sentencia);
+
+    mysqli_stmt_fetch($sentencia);
+
+    return $idEquipo;
+}
+
+function almacenarMascota($nombreMascota, $ruta_imagen, $idEquipo){
+    $con = conexionBD();
+    
+    $sentencia = mysqli_prepare($con,"INSERT INTO mascotas(nombre,foto,id_equipo) VALUES (?,?,?)");
+
+    mysqli_stmt_bind_param($sentencia,"ssi",$nombreMascota,$ruta_imagen,$idEquipo);
+
+    mysqli_stmt_execute($sentencia);
 }

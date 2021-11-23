@@ -40,6 +40,14 @@
         echo "<br>La contraseña es correcta";
     }*/
 
+
+//Mostrar los archivos del usuario
+
+    $ruta = getcwd()."/".$usuario."/".date("Y");
+    $ficheros = scandir($ruta);
+
+    mostrarFicheros($ficheros,$ruta);
+
     if(comprobarUser($_POST['usuario'],$_POST['passwd'])){
         $_SESSION['nombreUser']=$_POST['usuario'];
     }
