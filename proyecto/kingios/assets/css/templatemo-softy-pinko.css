@@ -1599,3 +1599,19 @@ login
   justify-content: center;
   padding:30% 30% 30% 30%;
 }
+
+/* 
+---------------------------------------------
+files
+--------------------------------------------- 
+*/
+
+.filetable{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#upload{
+  background-color: #ffffff;
+}

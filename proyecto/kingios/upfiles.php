@@ -21,7 +21,7 @@ $error = $_FILES['upload']['error'];
 if($error == UPLOAD_ERR_OK){
     $usuario = $_SESSION['nickname'];
     $ruta = getcwd();
-    $rutaCompleta = $ruta."./users/".$usuario."/";
+    $rutaCompleta = $ruta."/users/".$usuario."/";
     $name = str_replace(' ','_',$name);
     move_uploaded_file($rutaFichero,$rutaCompleta.$name);
      //echo "El fichero $name está almacenado en $rutaFichero con un tamaño de $size";

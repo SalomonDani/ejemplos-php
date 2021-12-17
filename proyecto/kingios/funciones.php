@@ -148,7 +148,7 @@ function registrarUsuario(){
         $_SESSION['nickname'] = $nickname;
         $_SESSION['logeado'] = true;
         $ruta = getcwd();
-        mkdir($ruta."./users/".$nickname."/", 0777, true);
+        mkdir($ruta."/users/".$nickname."/", 0777, true);
     }else{
         echo "Ocurrio un problema";
     }
@@ -510,9 +510,111 @@ function generarBodyHTML(){
     <!-- ***** Testimonials End ***** -->
 
     <!-- ***** Pricing Plans Start ***** -->
+    <section class='section colored' id='pricing-plans'>
+        <div class='container'>
+            <!-- ***** Section Title Start ***** -->
+            <div class='row'>
+                <div class='col-lg-12'>
+                    <div class='center-heading'>
+                        <h2 class='section-title'>Pricing Plans</h2>
+                    </div>
+                </div>
+                <div class='offset-lg-3 col-lg-6'>
+                    <div class='center-text'>
+                        <p>Donec vulputate urna sed rutrum venenatis. Cras consequat magna quis arcu elementum, quis congue risus volutpat.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- ***** Section Title End ***** -->
 
+            <div class='row'>
+                <!-- ***** Pricing Item Start ***** -->
+                <div class='col-lg-4 col-md-6 col-sm-12' data-scroll-reveal='enter bottom move 50px over 0.6s after 0.2s'>
+                    <div class='pricing-item'>
+                        <div class='pricing-header'>
+                            <h3 class='pricing-title'>Starter</h3>
+                        </div>
+                        <div class='pricing-body'>
+                            <div class='price-wrapper'>
+                                <span class='currency'>$</span>
+                                <span class='price'>14.50</span>
+                                <span class='period'>monthly</span>
+                            </div>
+                            <ul class='list'>
+                                <li class='active'>60 GB space</li>
+                                <li class='active'>600 GB transfer</li>
+                                <li class='active'>Pro Design Panel</li>
+                                <li>15-minute support</li>
+                                <li>Unlimited Emails</li>
+                                <li>24/7 Security</li>
+                            </ul>
+                        </div>
+                        <div class='pricing-footer'>
+                            <a href='#' class='main-button'>Purchase Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ***** Pricing Item End ***** -->
+
+                <!-- ***** Pricing Item Start ***** -->
+                <div class='col-lg-4 col-md-6 col-sm-12' data-scroll-reveal='enter bottom move 50px over 0.6s after 0.4s'>
+                    <div class='pricing-item active'>
+                        <div class='pricing-header'>
+                            <h3 class='pricing-title'>Premium</h3>
+                        </div>
+                        <div class='pricing-body'>
+                            <div class='price-wrapper'>
+                                <span class='currency'>$</span>
+                                <span class='price'>21.50</span>
+                                <span class='period'>monthly</span>
+                            </div>
+                            <ul class='list'>
+                                <li class='active'>120 GB space</li>
+                                <li class='active'>1200 GB transfer</li>
+                                <li class='active'>Pro Design Panel</li>
+                                <li class='active'>15-minute support</li>
+                                <li>Unlimited Emails</li>
+                                <li>24/7 Security</li>
+                            </ul>
+                        </div>
+                        <div class='pricing-footer'>
+                            <a href='#' class='main-button'>Purchase Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ***** Pricing Item End ***** -->
+
+                <!-- ***** Pricing Item Start ***** -->
+                <div class='col-lg-4 col-md-6 col-sm-12' data-scroll-reveal='enter bottom move 50px over 0.6s after 0.6s'>
+                    <div class='pricing-item'>
+                        <div class='pricing-header'>
+                            <h3 class='pricing-title'>Advanced</h3>
+                        </div>
+                        <div class='pricing-body'>
+                            <div class='price-wrapper'>
+                                <span class='currency'>$</span>
+                                <span class='price'>42.00</span>
+                                <span class='period'>monthly</span>
+                            </div>
+                            <ul class='list'>
+                                <li class='active'>250 GB space</li>
+                                <li class='active'>5000 GB transfer</li>
+                                <li class='active'>Pro Design Panel</li>
+                                <li class='active'>15-minute support</li>
+                                <li class='active'>Unlimited Emails</li>
+                                <li class='active'>24/7 Security</li>
+                            </ul>
+                        </div>
+                        <div class='pricing-footer'>
+                            <a href='#' class='main-button'>Purchase Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ***** Pricing Item End ***** -->
+            </div>
+        </div>
+    </section>
     <!-- ***** Pricing Plans End ***** -->
-
     <!-- ***** Counter Parallax Start ***** -->
     <section class='counter'>
         <div class='content'>
@@ -778,8 +880,7 @@ function areaPersonal(){
                     </div>
                 </div>
             </div>
-            <!-- ***** Section Title End ***** -->
-
+            
             <div class='row'>
                 <!-- ***** Pricing Item Start ***** -->
                 <div class='col-lg-4 col-md-6 col-sm-12' data-scroll-reveal='enter bottom move 50px over 0.6s after 0.2s'>
@@ -796,20 +897,35 @@ function areaPersonal(){
                     </div>
                 </div>
                 <!-- ***** Pricing Item End ***** -->
-
                 <!-- ***** Pricing Item Start ***** -->
                 <div class='col-lg-4 col-md-6 col-sm-12' data-scroll-reveal='enter bottom move 50px over 0.6s after 0.6s'>
                     <div class='pricing-item'>
                         <div class='pricing-header'>
-                            <h3 class='pricing-title'>Advanced</h3>
+                            <h3 class='pricing-title'>Tickets</h3>
                         </div>
                         <div class='pricing-body'>
                             <div class='price-wrapper'>
-                                <span class='price'>Your Tickets</span>
+                                <span class='price'>Your<strong class='theme_blue'>Tickets</strong></span>
                             </div>
                         </div>
                         <div class='pricing-footer'>
                             <a href='#' class='main-button'>View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-lg-4 col-md-6 col-sm-12' data-scroll-reveal='enter bottom move 50px over 0.6s after 0.6s'>
+                    <div class='pricing-item'>
+                        <div class='pricing-header'>
+                            <h3 class='pricing-title'>Tickets</h3>
+                        </div>
+                        <div class='pricing-body'>
+                            <div class='price-wrapper'>
+                                <span class='price'>Download<strong class='theme_blue'>Files</strong></span>
+                            </div>
+                            <div class='filetable'>";
+                            $ruta = getcwd();
+                             mostrarFichero($ruta."/users/".$_SESSION['nickname']);
+                     echo " </div>
                         </div>
                     </div>
                 </div>
@@ -821,8 +937,27 @@ function areaPersonal(){
 
 function formularioCargaArchivos(){
     echo "
-    <section class='section colored' id='contact-us'>
+    <section class='section colored' id='upload'>
         <div class='container'>
+            <div class='row'>
+                <div class='col-lg-12'>
+                    <div class='center-heading'>
+                        <h2 class='section-title'><span class='price'>Upload<strong class='theme_blue'>Files</strong></span></h2>
+                    </div>
+                </div>
+                <div class='offset-lg-3 col-lg-6'>
+                    <div class='center-text'>
+                       <p>Upload your files to a personal folder.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- ***** Section Title End ***** -->
+            <div class='row'>
+                <div class='col-lg-4 col-md-6 col-sm-12'>
+                    <div class='contact-text'>
+                    </div>
+                </div>
+                <!-- ***** Upload Form Start ***** -->
                 <div class='col-lg-8 col-md-6 col-sm-12'>
                     <div class='contact-form'>
                         <form id='upload' action='./upfiles.php' method='post' enctype='multipart/form-data'>
@@ -839,28 +974,24 @@ function formularioCargaArchivos(){
                                 </div>
                             </div>
                         </form>
-                    </div>";
-                    $ruta = getcwd();
-                    $rutaCompleta = $ruta."./users/".$_SESSION['nickname']."/";
-                    mostrarFichero($rutaCompleta);
-        echo "
-            </div>      
+                    </div>
+                </div>
+                <!-- ***** Upload Form End ***** -->
+            </div>
         </div>
     </section>
-        ";
+    ";
 }
 
 
 function mostrarFichero($ruta){
 
     echo "
-    <h2>Download<strong class='theme_blue'>Files</strong></h2>
-    
-    <table border=1px solid>
-        <tr>
-            <th>Nombre Fichero</th>
-            <th>Enlace Descarga </th>
-        </tr>";
+        <table border=1px solid>
+            <tr>
+                <th>Nombre Fichero</th>
+                <th>Enlace Descarga </th>
+            </tr>";
 
         $arrayFicheros = scandir($ruta,SCANDIR_SORT_ASCENDING);
         
@@ -869,7 +1000,7 @@ function mostrarFichero($ruta){
             echo "<tr>
                     <td>$fichero</td>
                     <td>
-                        <a href='download.php?file'".$ruta."/".$fichero."'>Descargar</a>
+                        <a href='download.php?file=".$ruta."/".$fichero."'>Descargar</a>
                     </td>
                    </tr>";
                 }
@@ -892,21 +1023,4 @@ function volverAreaPersonal(){
             window.location.href='./areapersonal.php'
         </script>
     ";
-}
-
-function download($fichero){
-    $file = $fichero;
-    echo "
-        <section class='section colored' id='contact-us'>
-            <div class='container'>
-                <div class='col-lg-8 col-md-6 col-sm-12'>
-                    <a href='download.php?name=".$file."'>
-                    <button class='btn rounded-0 d-block ml-auto tm-btn-primary'>
-                    Download
-                    </button>
-                    </a>
-                </div>
-            </div>
-        </section>
-        ";
 }

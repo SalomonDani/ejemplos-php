@@ -1,18 +1,16 @@
 <?php
-    include_once "./funciones.php";
+include_once "./funciones.php";
 
- $archivo=$_GET['name'];
+$archivo=$_GET['file'];
 
-if (!isset($_GET['name'])){
+if (!isset($_GET['file'])){
     echo "Parámetros insuficientes";
 }else{
-    $ruta = getcwd();
-    $rutaCompleta = $ruta."./users/".$usuario."/".$archivo;
-    if(file_exists($rutaCompleta)){
+    if(file_exists($archivo)){
         //El parámetro y el fichero existen
-    header("Content-type: ".mime_content_type($rutaCompleta));
-    header("Content-Disposition: attachment; filename=".$archivo);
-    header("Content-length:".filesize($rutaCompleta));
-    readfile($rutaCompleta);
+        header("Content-type: ".mime_content_type($archivo));
+        header("Content-Disposition: attachment; filename=".$archivo);
+        header("Content-length:".filesize($archivo));
+        readfile($archivo);
     }
 }
