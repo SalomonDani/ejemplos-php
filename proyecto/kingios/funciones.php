@@ -35,8 +35,7 @@ function generarFormularioLogin(){
                 </div>
             </div>
             <!-- ***** Section Title End ***** -->
-
-                <div class='col-lg-8 col-md-6 col-sm-12'>
+                <div>
                     <div class='contact-form'>
                         <form id='contact' action='./usuario.php' method='post'>
                         <div class='row'>
@@ -57,7 +56,7 @@ function generarFormularioLogin(){
                             </div>
                         </div>
                         </form>
-            <div>
+                    <div>
                             <p>Create an account if you don't have one. <a href='./register.php'>Create an account.</a></p>
                     </div>
                     </div>
@@ -84,7 +83,7 @@ function generarFormularioRegistro(){
             <!-- ***** Section Title End ***** -->
 
                 <!-- ***** Contact Form Start ***** -->
-                <div class='col-lg-8 col-md-6 col-sm-12'>
+                <div>
                     <div class='contact-form'>
                         <form id='contact' action='./insertardatos.php' method='post'>
                         <div class='row'>
@@ -916,7 +915,7 @@ function areaPersonal(){
                 <div class='col-lg-4 col-md-6 col-sm-12' data-scroll-reveal='enter bottom move 50px over 0.6s after 0.6s'>
                     <div class='pricing-item'>
                         <div class='pricing-header'>
-                            <h3 class='pricing-title'>Tickets</h3>
+                            <h3 class='pricing-title'>Files</h3>
                         </div>
                         <div class='pricing-body'>
                             <div class='price-wrapper'>

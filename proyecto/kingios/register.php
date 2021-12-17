@@ -2,7 +2,7 @@
 session_start();
 include_once('./funciones.php');
 generarEncabezadoHTML("Register");
-generarHeaderHTML($logeado);
+generarHeaderHTML(false);
 generarFormularioRegistro();
 generarFooterHTML();
 generarCierreHTML();
