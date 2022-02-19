@@ -777,8 +777,8 @@ features
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  width: 90px;
-  height: 90px;
+  width: 100px;
+  height: 100px;
   line-height: 90px;
   margin: auto;
   position: relative;
