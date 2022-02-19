@@ -196,8 +196,8 @@ function generarHeaderHTML($logeado){
                             <li><a href='./index.php' class='active'>Home</a></li>
                             <li><a href='#features'>About</a></li>
                             <li><a href='#work-process'>Work Process</a></li>
-                            <li><a href='#testimonials'>Testimonials</a></li>
-                            <li><a href='#pricing-plans'>Pricing Tables</a></li>
+                            <li><a href='https://tienda.kingios.es'>Shop</a></li>
+                            <li><a href='https://blog.kingios.es'>Blog</a></li>
                             <li><a href='#contact-us'>Contact Us</a></li>
                             <li><a href='./login.php'>Login</a></li>
                         </ul>
@@ -231,9 +231,9 @@ function generarHeaderHTML($logeado){
                             <li><a href='./index.php' class='active'>Home</a></li>
                             <li><a href='#features'>About</a></li>
                             <li><a href='#work-process'>Work Process</a></li>
-                            <li><a href='#testimonials'>Testimonials</a></li>
-                            <li><a href='#pricing-plans'>Pricing Tables</a></li>
-                            <li><a href='#contact-us'>Contact Us</a></li>
+                            <li><a href='https://tienda.kingios.es'>Shop</a></li>
+                            <li><a href='https://blog.kingios.es'>Blog</a></li>
+                            <li><a href='https://mail.kingios.es'>WebMail</a></li>
                             <li><a href='./areapersonal.php'>Personal Area</a></li>
                             <li><a href='./cerrarsesion.php'>Logout</a></li>
                         </ul>
@@ -282,10 +282,10 @@ function generarBodyHTML(){
                         <div class='col-lg-4 col-md-6 col-sm-6 col-12' data-scroll-reveal='enter bottom move 50px over 0.6s after 0.2s'>
                             <div class='features-small-item'>
                                 <div class='icon'>
-                                    <i><img src='assets/images/featured-item-01.png' alt=''></i>
+                                    <i><img src='assets/images/softdev.png' alt=''></i>
                                 </div>
-                                <h5 class='features-title'>Modern Strategy</h5>
-                                <p>Customize anything in this template to fit your website needs</p>
+                                <h5 class='features-title'>Desarrollo de Software</h5>
+                                <p>Desarrollamos todo tipo de aplicaciones a medida de tus peticiones, entra y echa un vistazo a nuestro desarrollo.</p>
                             </div>
                         </div>
                         <!-- ***** Features Small Item End ***** -->
@@ -294,10 +294,10 @@ function generarBodyHTML(){
                         <div class='col-lg-4 col-md-6 col-sm-6 col-12' data-scroll-reveal='enter bottom move 50px over 0.6s after 0.4s'>
                             <div class='features-small-item'>
                                 <div class='icon'>
-                                    <i><img src='assets/images/featured-item-01.png' alt=''></i>
+                                    <i><img src='assets/images/redes.png' alt=''></i>
                                 </div>
-                                <h5 class='features-title'>Best Relationship</h5>
-                                <p>Contact us immediately if you have a question in mind</p>
+                                <h5 class='features-title'>Redes</h5>
+                                <p>Elige la distribución de red, el numero de equipos y la velocidad que necesites. O consultanos sobre tu red.</p>
                             </div>
                         </div>
                         <!-- ***** Features Small Item End ***** -->
@@ -306,10 +306,10 @@ function generarBodyHTML(){
                         <div class='col-lg-4 col-md-6 col-sm-6 col-12' data-scroll-reveal='enter bottom move 50px over 0.6s after 0.6s'>
                             <div class='features-small-item'>
                                 <div class='icon'>
-                                    <i><img src='assets/images/featured-item-01.png' alt=''></i>
+                                    <i><img src='assets/images/servicios-it.png' alt=''></i>
                                 </div>
-                                <h5 class='features-title'>Ultimate Marketing</h5>
-                                <p>You just need to tell your friends about our free templates</p>
+                                <h5 class='features-title'>Soluciones Empresa</h5>
+                                <p>Dinos lo que necesitas, y te harémos presupuesto para tener una empresa perfectamente informatizada.</p>
                             </div>
                         </div>
                         <!-- ***** Features Small Item End ***** -->

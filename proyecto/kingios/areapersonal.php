@@ -7,3 +7,4 @@ areaPersonal();
 formularioCargaArchivos();
 generarFooterHTML();
 generarCierreHTML();
+<a href=""></a>
