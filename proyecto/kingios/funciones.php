@@ -7,7 +7,7 @@ define ("USUARIO","kingios");
 define ("PASSWORD","kingios1");
 define ("BASEDATOS","kingios_bd");
 
-function conectarBD(): mysqli | false {
+function conectarBD() {
     $conexion = mysqli_connect(SERVIDOR,USUARIO,PASSWORD,BASEDATOS);
 
     if (!$conexion){
