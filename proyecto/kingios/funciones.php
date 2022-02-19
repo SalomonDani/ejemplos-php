@@ -329,10 +329,12 @@ function generarBodyHTML(){
                 <div class='col-lg-1'></div>
                 <div class='col-lg-6 col-md-12 col-sm-12 align-self-center mobile-top-fix'>
                     <div class='left-heading'>
-                        <h2 class='section-title'>Hablemos e tus proyectos</h2>
+                        <h2 class='section-title'>Atención personalizada</h2>
                     </div>
                     <div class='left-text'>
-                        <p>Nos interesan tus proyectos, contáctanos para </p>
+                        <p>No una simple charla por telefono, contactanos y prepararemos una cita presencial
+                        para resolver todas tus dudas y escuchar tus necesidades. El trato pesonal es esencial
+                        en nuestra empresa.</p>
                     </div>
                 </div>
             </div>
@@ -351,10 +353,12 @@ function generarBodyHTML(){
             <div class='row'>
                 <div class='col-lg-6 col-md-12 col-sm-12 align-self-center mobile-bottom-fix'>
                     <div class='left-heading'>
-                        <h2 class='section-title'>We can help you to grow your business</h2>
+                        <h2 class='section-title'>Te ayudamos a informatizar tu negocio</h2>
                     </div>
                     <div class='left-text'>
-                        <p>Aenean pretium, ipsum et porttitor auctor, metus ipsum iaculis nisi, a bibendum lectus libero vitae urna. Sed id leo eu dolor luctus congue sed eget ipsum. Nunc nec luctus libero. Etiam quis dolor elit.</p>
+                        <p>Te ayudamos a pasar tu negocios a las nuevas tecnologías. Ofrecemos
+                        todo tipo de servicio de informatización, desde páginas web hasta la configuración
+                        de servidores para la informatización de tu negocio. La informática te hace la vida mas fácil.</p>
                     </div>
                 </div>
                 <div class='col-lg-1'></div>
@@ -373,8 +377,8 @@ function generarBodyHTML(){
                 <div class='row'>
                     <div class='offset-lg-3 col-lg-6'>
                         <div class='info'>
-                            <h1>Work Process</h1>
-                            <p>Aenean nec tempor metus. Maecenas ligula dolor, commodo in imperdiet interdum, vehicula ut ex. Donec ante diam.</p>
+                            <h1>Como Trabajamos</h1>
+                            <p>A continuación te hacemos un pequeño esquema de nuestro proceso de trabajo.</p>
                         </div>
                     </div>
                 </div>
@@ -384,43 +388,36 @@ function generarBodyHTML(){
                     <div class='col-lg-2 col-md-3 col-sm-6 col-6'>
                         <a href='#' class='mini-box'>
                             <i><img src='assets/images/work-process-item-01.png' alt=''></i>
-                            <strong>Get Ideas</strong>
-                            <span>Godard pabst prism fam cliche.</span>
+                            <strong>Ideas</strong>
+                            <span>Escuchamos tus ideas y tus necesidades.</span>
                         </a>
                     </div>
                     <div class='col-lg-2 col-md-3 col-sm-6 col-6'>
                         <a href='#' class='mini-box'>
                             <i><img src='assets/images/work-process-item-01.png' alt=''></i>
-                            <strong>Sketch Up</strong>
-                            <span>Godard pabst prism fam cliche.</span>
+                            <strong>Discusión</strong>
+                            <span>Te decimos ofrecemos nuestras opinión sobre tus ideas.</span>
                         </a>
                     </div>
                     <div class='col-lg-2 col-md-3 col-sm-6 col-6'>
                         <a href='#' class='mini-box'>
                             <i><img src='assets/images/work-process-item-01.png' alt=''></i>
-                            <strong>Discuss</strong>
-                            <span>Godard pabst prism fam cliche.</span>
+                            <strong>Revisión</strong>
+                            <span>Revisamos las propuestas en conclusión</span>
                         </a>
                     </div>
                     <div class='col-lg-2 col-md-3 col-sm-6 col-6'>
                         <a href='#' class='mini-box'>
                             <i><img src='assets/images/work-process-item-01.png' alt=''></i>
-                            <strong>Revise</strong>
-                            <span>Godard pabst prism fam cliche.</span>
-                        </a>
-                    </div>
-                    <div class='col-lg-2 col-md-3 col-sm-6 col-6'>
-                        <a href='#' class='mini-box'>
-                            <i><img src='assets/images/work-process-item-01.png' alt=''></i>
-                            <strong>Approve</strong>
-                            <span>Godard pabst prism fam cliche.</span>
+                            <strong>Aprobación</strong>
+                            <span>Una vez claras las ideas y revisadas, se aprueba el plan.</span>
                         </a>
                     </div>
                     <div class='col-lg-2 col-md-3 col-sm-6 col-6'>
                         <a href='#' class='mini-box'>
                             <i><img src='assets/images/work-process-item-01.png' alt=''></i>
                             <strong>Launch</strong>
-                            <span>Godard pabst prism fam cliche.</span>
+                            <span>Es hora de poner tu proyecto en marcha.</span>
                         </a>
                     </div>
                 </div>
@@ -530,6 +527,12 @@ function generarBodyHTML(){
                             <span>Premios Ganados</span>
                         </div>
                     </div>
+                    <div class='col-lg-3 col-md-6 col-sm-12'>
+                        <div class='count-item decoration-bottom'>
+                            <strong>2</strong>
+                            <span>Países</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -633,7 +636,7 @@ function generarBodyHTML(){
                     <h5 class='margin-bottom-30'>Mantengamos el contacto</h5>
                     <div class='contact-text'>
                         <p>El horario de contacto es:<br>
-                        <strong>De Lunes a Viernes</strong>
+                        <strong>De Lunes a Viernes</strong><br>
                         <strong>De 9:00 a 19:00</strong>
                         </p>
                     </div>
