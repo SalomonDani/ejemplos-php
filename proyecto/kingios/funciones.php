@@ -333,7 +333,7 @@ function generarBodyHTML(){
                     </div>
                     <div class='left-text'>
                         <p>No una simple charla por telefono, contactanos y prepararemos una cita presencial
-                        para resolver todas tus dudas y escuchar tus necesidades. El trato pesonal es esencial
+                        para resolver todas tus dudas y escuchar tus necesidades. El trato personal es esencial
                         en nuestra empresa.</p>
                     </div>
                 </div>
@@ -446,7 +446,7 @@ function generarBodyHTML(){
                 </div>
                 <div class='offset-lg-3 col-lg-6'>
                     <div class='center-text'>
-                        <p>Donec tempus, sem non rutrum imperdiet, lectus orci fringilla nulla, at accumsan elit eros a turpis. Ut sagittis lectus libero.</p>
+                        <p>Vamos a echar un vistazo a lo que dicen algunos de nuestros clientes sobre nuestro servicio.</p>
                     </div>
                 </div>
             </div>
@@ -458,13 +458,14 @@ function generarBodyHTML(){
                     <div class='team-item'>
                         <div class='team-content'>
                             <i><img src='assets/images/testimonial-icon.png' alt=''></i>
-                            <p>Proin a neque nisi. Nam ipsum nisi, venenatis ut nulla quis, egestas scelerisque orci. Maecenas a finibus odio.</p>
+                            <p>Gracias a Kingio's service pude conectar todas las sedes de mis empresas. 
+                            Trato espectacular y trabajo profesional.</p>
                             <div class='user-image'>
                                 <img src='http://placehold.it/60x60' alt=''>
                             </div>
                             <div class='team-info'>
-                                <h3 class='user-name'>Catherine Soft</h3>
-                                <span>Managing Director</span>
+                                <h3 class='user-name'>Catherine Richards</h3>
+                                <span>Catherine Soft</span>
                             </div>
                         </div>
                     </div>
@@ -476,13 +477,14 @@ function generarBodyHTML(){
                     <div class='team-item'>
                         <div class='team-content'>
                             <i><img src='assets/images/testimonial-icon.png' alt=''></i>
-                            <p>Integer molestie aliquam gravida. Nullam nec arcu finibus, imperdiet nulla vitae, placerat nibh. Cras maximus venenatis molestie.</p>
+                            <p>Antes me costaba captar clientes, pero desde que Kingio's Services me hizo la página web, 
+                            mis ventas han subido un 47%.</p>
                             <div class='user-image'>
                                 <img src='http://placehold.it/60x60' alt=''>
                             </div>
                             <div class='team-info'>
                                 <h3 class='user-name'>Kelvin Wood</h3>
-                                <span>Digital Marketer</span>
+                                <span>Curtidos Abelardo</span>
                             </div>
                         </div>
                     </div>
@@ -494,13 +496,14 @@ function generarBodyHTML(){
                     <div class='team-item'>
                         <div class='team-content'>
                             <i><img src='assets/images/testimonial-icon.png' alt=''></i>
-                            <p>Quisque diam odio, maximus ac consectetur eu, auctor non lorem. Cras quis est non ante ultrices molestie. Ut vehicula et diam at aliquam.</p>
+                            <p>Ahora con el despliegue de nuevos servidores y bases de datos,
+                            podemos levar una contabilidad y control de las castañas recogidas en la temporada.</p>
                             <div class='user-image'>
                                 <img src='http://placehold.it/60x60' alt=''>
                             </div>
                             <div class='team-info'>
                                 <h3 class='user-name'>David Martin</h3>
-                                <span>Website Manager</span>
+                                <span>Castañas ORG</span>
                             </div>
                         </div>
                     </div>
