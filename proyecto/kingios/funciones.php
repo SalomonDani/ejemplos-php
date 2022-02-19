@@ -260,8 +260,8 @@ function generarBodyHTML(){
             <div class='container'>
                 <div class='row'>
                     <div class='offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-12 col-sm-12'>
-                        <h1><strong>Bienvenidos a</strong><br><strong>Kingio's Services</strong></h1>
-                        <p>Bienvenidos a Kingio's Services, tu empresa lider en servicios informáticos.</p>
+                        <h1>Bienvenidos a<br><strong>Kingio's Services</strong></h1>
+                        <p>Bienvenidos a <strong>Kingio's Services</strong>, tu empresa lider en servicios informáticos.</p>
                         <a href='#features' class='main-button-slider'>Saber Más</a>
                     </div>
                 </div>
@@ -329,10 +329,10 @@ function generarBodyHTML(){
                 <div class='col-lg-1'></div>
                 <div class='col-lg-6 col-md-12 col-sm-12 align-self-center mobile-top-fix'>
                     <div class='left-heading'>
-                        <h2 class='section-title'>Let’s discuss about you project</h2>
+                        <h2 class='section-title'>Hablemos e tus proyectos</h2>
                     </div>
                     <div class='left-text'>
-                        <p>Nullam sit amet purus libero. Etiam ullamcorper nisl ut augue blandit, at finibus leo efficitur. Nam gravida purus non sapien auctor, ut aliquam magna ullamcorper.</p>
+                        <p>Nos interesan tus proyectos, contáctanos para </p>
                     </div>
                 </div>
             </div>
@@ -811,17 +811,16 @@ function generarFooterHTML(){
                 <div class='row'>
                     <div class='col-lg-12 col-md-12 col-sm-12'>
                         <ul class='social'>
-                            <li><a href='#'><i class='fa fa-facebook'></i></a></li>
-                            <li><a href='#'><i class='fa fa-twitter'></i></a></li>
-                            <li><a href='#'><i class='fa fa-linkedin'></i></a></li>
-                            <li><a href='#'><i class='fa fa-rss'></i></a></li>
-                            <li><a href='#'><i class='fa fa-dribbble'></i></a></li>
+                            <li><a href='https://www.facebook.com'><i class='fa fa-facebook'></i></a></li>
+                            <li><a href='https://twitter.com'><i class='fa fa-twitter'></i></a></li>
+                            <li><a href='https://www.linkedin.com'><i class='fa fa-linkedin'></i></a></li>
+                            <li><a href='https://feedly.com'><i class='fa fa-rss'></i></a></li>
                         </ul>
                     </div>
                 </div>
                 <div class='row'>
                     <div class='col-lg-12'>
-                        <p class='copyright'>Copyright &copy; 2020 Softy Pinko Company - Design: TemplateMo</p>
+                        <p class='copyright'>Copyright &copy; 2020 Kingio's S.A.</p>
                     </div>
                 </div>
             </div>
