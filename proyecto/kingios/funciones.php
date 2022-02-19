@@ -441,7 +441,7 @@ function generarBodyHTML(){
             <div class='row'>
                 <div class='col-lg-12'>
                     <div class='center-heading'>
-                        <h2 class='section-title'>What do they say?</h2>
+                        <h2 class='section-title'>¿Que dicen nuestros clientes?</h2>
                     </div>
                 </div>
                 <div class='offset-lg-3 col-lg-6'>
