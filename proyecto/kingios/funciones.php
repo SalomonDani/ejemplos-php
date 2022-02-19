@@ -420,6 +420,13 @@ function generarBodyHTML(){
                             <span>Es hora de poner tu proyecto en marcha.</span>
                         </a>
                     </div>
+                    <div class='col-lg-2 col-md-3 col-sm-6 col-6'>
+                    <a href='#' class='mini-box'>
+                        <i><img src='assets/images/work-process-item-01.png' alt=''></i>
+                        <strong>Mejora</strong>
+                        <span>Tu negocio esta listo e informatizado.</span>
+                    </a>
+                </div>
                 </div>
                 <!-- ***** Mini Box End ***** -->
             </div>
@@ -528,7 +535,7 @@ function generarBodyHTML(){
                         </div>
                     </div>
                     <div class='col-lg-3 col-md-6 col-sm-12'>
-                        <div class='count-item decoration-bottom'>
+                        <div class='count-item'>
                             <strong>2</strong>
                             <span>Países</span>
                         </div>
