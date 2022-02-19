@@ -507,112 +507,6 @@ function generarBodyHTML(){
     </section>
     <!-- ***** Testimonials End ***** -->
 
-    <!-- ***** Pricing Plans Start ***** -->
-    <section class='section colored' id='pricing-plans'>
-        <div class='container'>
-            <!-- ***** Section Title Start ***** -->
-            <div class='row'>
-                <div class='col-lg-12'>
-                    <div class='center-heading'>
-                        <h2 class='section-title'>Pricing Plans</h2>
-                    </div>
-                </div>
-                <div class='offset-lg-3 col-lg-6'>
-                    <div class='center-text'>
-                        <p>Donec vulputate urna sed rutrum venenatis. Cras consequat magna quis arcu elementum, quis congue risus volutpat.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- ***** Section Title End ***** -->
-
-            <div class='row'>
-                <!-- ***** Pricing Item Start ***** -->
-                <div class='col-lg-4 col-md-6 col-sm-12' data-scroll-reveal='enter bottom move 50px over 0.6s after 0.2s'>
-                    <div class='pricing-item'>
-                        <div class='pricing-header'>
-                            <h3 class='pricing-title'>Starter</h3>
-                        </div>
-                        <div class='pricing-body'>
-                            <div class='price-wrapper'>
-                                <span class='currency'>$</span>
-                                <span class='price'>14.50</span>
-                                <span class='period'>monthly</span>
-                            </div>
-                            <ul class='list'>
-                                <li class='active'>60 GB space</li>
-                                <li class='active'>600 GB transfer</li>
-                                <li class='active'>Pro Design Panel</li>
-                                <li>15-minute support</li>
-                                <li>Unlimited Emails</li>
-                                <li>24/7 Security</li>
-                            </ul>
-                        </div>
-                        <div class='pricing-footer'>
-                            <a href='#' class='main-button'>Purchase Now</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- ***** Pricing Item End ***** -->
-
-                <!-- ***** Pricing Item Start ***** -->
-                <div class='col-lg-4 col-md-6 col-sm-12' data-scroll-reveal='enter bottom move 50px over 0.6s after 0.4s'>
-                    <div class='pricing-item active'>
-                        <div class='pricing-header'>
-                            <h3 class='pricing-title'>Premium</h3>
-                        </div>
-                        <div class='pricing-body'>
-                            <div class='price-wrapper'>
-                                <span class='currency'>$</span>
-                                <span class='price'>21.50</span>
-                                <span class='period'>monthly</span>
-                            </div>
-                            <ul class='list'>
-                                <li class='active'>120 GB space</li>
-                                <li class='active'>1200 GB transfer</li>
-                                <li class='active'>Pro Design Panel</li>
-                                <li class='active'>15-minute support</li>
-                                <li>Unlimited Emails</li>
-                                <li>24/7 Security</li>
-                            </ul>
-                        </div>
-                        <div class='pricing-footer'>
-                            <a href='#' class='main-button'>Purchase Now</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- ***** Pricing Item End ***** -->
-
-                <!-- ***** Pricing Item Start ***** -->
-                <div class='col-lg-4 col-md-6 col-sm-12' data-scroll-reveal='enter bottom move 50px over 0.6s after 0.6s'>
-                    <div class='pricing-item'>
-                        <div class='pricing-header'>
-                            <h3 class='pricing-title'>Advanced</h3>
-                        </div>
-                        <div class='pricing-body'>
-                            <div class='price-wrapper'>
-                                <span class='currency'>$</span>
-                                <span class='price'>42.00</span>
-                                <span class='period'>monthly</span>
-                            </div>
-                            <ul class='list'>
-                                <li class='active'>250 GB space</li>
-                                <li class='active'>5000 GB transfer</li>
-                                <li class='active'>Pro Design Panel</li>
-                                <li class='active'>15-minute support</li>
-                                <li class='active'>Unlimited Emails</li>
-                                <li class='active'>24/7 Security</li>
-                            </ul>
-                        </div>
-                        <div class='pricing-footer'>
-                            <a href='#' class='main-button'>Purchase Now</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- ***** Pricing Item End ***** -->
-            </div>
-        </div>
-    </section>
-    <!-- ***** Pricing Plans End ***** -->
     <!-- ***** Counter Parallax Start ***** -->
     <section class='counter'>
         <div class='content'>
@@ -620,26 +514,20 @@ function generarBodyHTML(){
                 <div class='row'>
                     <div class='col-lg-3 col-md-6 col-sm-12'>
                         <div class='count-item decoration-bottom'>
-                            <strong>126</strong>
-                            <span>Projects</span>
+                            <strong>99</strong>
+                            <span>Projectos</span>
                         </div>
                     </div>
                     <div class='col-lg-3 col-md-6 col-sm-12'>
                         <div class='count-item decoration-top'>
                             <strong>63</strong>
-                            <span>Happy Clients</span>
+                            <span>Clientes Satisfechos</span>
                         </div>
                     </div>
                     <div class='col-lg-3 col-md-6 col-sm-12'>
                         <div class='count-item decoration-bottom'>
-                            <strong>18</strong>
-                            <span>Awards Wins</span>
-                        </div>
-                    </div>
-                    <div class='col-lg-3 col-md-6 col-sm-12'>
-                        <div class='count-item'>
-                            <strong>27</strong>
-                            <span>Countries</span>
+                            <strong>4</strong>
+                            <span>Premios Ganados</span>
                         </div>
                     </div>
                 </div>
@@ -727,12 +615,13 @@ function generarBodyHTML(){
             <div class='row'>
                 <div class='col-lg-12'>
                     <div class='center-heading'>
-                        <h2 class='section-title'>Talk To Us</h2>
+                        <h2 class='section-title'>Habla con nosotros</h2>
                     </div>
                 </div>
                 <div class='offset-lg-3 col-lg-6'>
                     <div class='center-text'>
-                        <p>Maecenas pellentesque ante faucibus lectus vulputate sollicitudin. Cras feugiat hendrerit semper.</p>
+                        <p>Rellena este formulario con tus nombre y tu email y escribenos un mensaje. 
+                        Te leeremos y nos pondremos en contanto contigo lo antes posible.</p>
                     </div>
                 </div>
             </div>
@@ -741,11 +630,12 @@ function generarBodyHTML(){
             <div class='row'>
                 <!-- ***** Contact Text Start ***** -->
                 <div class='col-lg-4 col-md-6 col-sm-12'>
-                    <h5 class='margin-bottom-30'>Keep in touch</h5>
+                    <h5 class='margin-bottom-30'>Mantengamos el contacto</h5>
                     <div class='contact-text'>
-                        <p>110-220 Quisque diam odio, maximus ac consectetur eu, 10260
-                        <br>auctor non lorem</p>
-                        <p>You are NOT allowed to re-distribute Softy Pinko template on any template collection websites. Thank you.</p>
+                        <p>El horario de contacto es:<br>
+                        <strong>De Lunes a Viernes</strong>
+                        <strong>De 9:00 a 19:00</strong>
+                        </p>
                     </div>
                 </div>
                 <!-- ***** Contact Text End ***** -->
@@ -772,7 +662,7 @@ function generarBodyHTML(){
                             </div>
                             <div class='col-lg-12'>
                               <fieldset>
-                                <button type='submit' id='form-submit' class='main-button'>Send Message</button>
+                                <button type='submit' id='form-submit' class='main-button'>Enviar Mensaje</button>
                               </fieldset>
                             </div>
                           </div>
