@@ -718,7 +718,7 @@ function areaPersonal(){
                         </div>
                         <div class='pricing-body'>
                             <div class='price-wrapper'>
-                                <span class='price'>PFP</span>
+                                <span class='price'><img src='assets/images/perfildefecto.png'></span>
                                 <span class='period'>".$_SESSION['nickname']."</span>
                             </div>
                         </div>
